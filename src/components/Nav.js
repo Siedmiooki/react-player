@@ -6,7 +6,7 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
         <nav>
             <h1 style={{ opacity: `${libraryStatus ? 0 : 1}` }}>Simple react player</h1>
             <button onClick={() => setLibraryStatus(!libraryStatus)}>
-                My Music
+                My Music{" "}
                 <FontAwesomeIcon icon={faMusic} />
             </button>
         </nav>
