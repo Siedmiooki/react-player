@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 h1,h2,h3 {
     color:rgb(61, 60, 60)
@@ -16,4 +17,5 @@ h3,h4 {
 
 @import "./song";
 @import "./player";
-@import "./library"
+@import "./library";
+@import "./nav"
